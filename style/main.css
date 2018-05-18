@@ -42,10 +42,9 @@ nav {
   display: none;
   float: left;
   font-family: "Squada One", cursive; }
-
-.name a {
-  text-decoration: none;
-  color: #000000; }
+  .name a {
+    text-decoration: none;
+    color: #000000; }
 
 .menu ul {
   float: right; }
@@ -97,11 +96,10 @@ nav {
   height: 60px;
   padding: 0 200px;
   float: none; }
-
-.fixednav li {
-  padding-top: 20px;
-  float: none;
-  text-align: center; }
+  .fixednav li {
+    padding-top: 20px;
+    float: none;
+    text-align: center; }
 
 .topwrapper {
   background: #FFC107;
@@ -163,31 +161,26 @@ footer {
   margin: 30px auto 0;
   background-color: #3F4747;
   color: #f2f2f2; }
-
-footer p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.8em;
-  display: inline-block;
-  padding-top: 20px;
-  font-weight: 300; }
-
-footer span {
-  font-family: "Squada One", cursive; }
+  footer p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.8em;
+    display: inline-block;
+    padding-top: 20px;
+    font-weight: 300; }
+  footer span {
+    font-family: "Squada One", cursive; }
 
 .socialmedia {
   float: right; }
-
-.socialmedia li {
-  float: left;
-  padding-top: 20px;
-  padding-left: 20px;
-  font-size: 1.5em; }
-
-.socialmedia a {
-  color: #f2f2f2; }
-
-.socialmedia a:hover {
-  color: #FBB03B; }
+  .socialmedia li {
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 1.5em; }
+  .socialmedia a {
+    color: #f2f2f2; }
+  .socialmedia a:hover {
+    color: #FBB03B; }
 
 hr {
   width: 30%;
@@ -203,14 +196,13 @@ h1.workheader {
 
 .tags {
   margin-bottom: 20px; }
-
-.tags span {
-  display: inline-block;
-  background-color: #7BB1B2;
-  color: #f2f2f2;
-  padding: 8px;
-  margin: 3px;
-  border-radius: 5px; }
+  .tags span {
+    display: inline-block;
+    background-color: #7BB1B2;
+    color: #f2f2f2;
+    padding: 8px;
+    margin: 3px;
+    border-radius: 5px; }
 
 .pulsebandsection {
   width: 100%;
@@ -265,12 +257,11 @@ h1.workheader {
 
 #nutritionSearchImage {
   padding-top: 50px; }
-
-#nutritionSearchImage img {
-  height: 60%;
-  width: 60%;
-  display: block;
-  margin: 0 auto; }
+  #nutritionSearchImage img {
+    height: 60%;
+    width: 60%;
+    display: block;
+    margin: 0 auto; }
 
 .viewNutritionSearch {
   display: block;
@@ -305,12 +296,11 @@ h1.workheader {
 
 #playlistimage {
   padding-top: 50px; }
-
-#playlistimage img {
-  height: 60%;
-  width: 60%;
-  display: block;
-  margin: 0 auto; }
+  #playlistimage img {
+    height: 60%;
+    width: 60%;
+    display: block;
+    margin: 0 auto; }
 
 .viewPlaylistGenerator {
   display: block;
@@ -366,9 +356,8 @@ h1.workheader {
   width: 80%;
   height: 300px;
   margin: 0 auto; }
-
-.aboutsection h1, .aboutsection h2, .aboutsection p {
-  margin: 30px 0px; }
+  .aboutsection h1, .aboutsection h2, .aboutsection p {
+    margin: 30px 0px; }
 
 #portrait {
   height: 25%;
@@ -382,13 +371,11 @@ h1.workheader {
   width: 60%;
   height: 30px;
   float: right; }
-
-.maininfo p {
-  font-size: 1.5em;
-  line-height: 1.3em; }
-
-.maininfo span {
-  font-weight: 700; }
+  .maininfo p {
+    font-size: 1.5em;
+    line-height: 1.3em; }
+  .maininfo span {
+    font-weight: 700; }
 
 .scienceinfo {
   width: 60%;
@@ -407,12 +394,11 @@ h1.workheader {
 #strategyimage {
   float: left;
   width: 40%; }
-
-#strategyimage img {
-  width: 100%;
-  height: 50%;
-  padding-left: 40px;
-  margin-top: 10px; }
+  #strategyimage img {
+    width: 100%;
+    height: 50%;
+    padding-left: 40px;
+    margin-top: 10px; }
 
 .uxdesign {
   width: 45%;
@@ -420,10 +406,9 @@ h1.workheader {
 
 #uxdesignimage {
   float: right; }
-
-#uxdesignimage img {
-  margin-top: 30px;
-  width: 100%; }
+  #uxdesignimage img {
+    margin-top: 30px;
+    width: 100%; }
 
 .code {
   width: 60%;
@@ -432,12 +417,11 @@ h1.workheader {
 #codeimage {
   float: left;
   width: 40%; }
-
-#codeimage img {
-  width: 80%;
-  height: 50%;
-  padding: 10px;
-  margin-top: -20px; }
+  #codeimage img {
+    width: 80%;
+    height: 50%;
+    padding: 10px;
+    margin-top: -20px; }
 
 .process {
   width: 60%;
@@ -445,23 +429,19 @@ h1.workheader {
 
 #processimage {
   float: right; }
-
-#processimage img {
-  margin-top: 30px;
-  width: 100%; }
+  #processimage img {
+    margin-top: 30px;
+    width: 100%; }
 
 .canhelp {
   height: 100%; }
-
-.canhelp h1, .canhelp p {
-  text-align: center;
-  line-height: 1.2em; }
-
-.canhelp h1 {
-  font-size: 2.2em; }
-
-.canhelp p {
-  font-size: 1.5em; }
+  .canhelp h1, .canhelp p {
+    text-align: center;
+    line-height: 1.2em; }
+  .canhelp h1 {
+    font-size: 2.2em; }
+  .canhelp p {
+    font-size: 1.5em; }
 
 #emailme {
   text-decoration: none;
@@ -547,25 +527,20 @@ img {
 .casestudysection {
   width: 80%;
   margin: 50px auto; }
-
-.casestudysection h1, .casestudysection h2 {
-  padding-top: 40px; }
-
-.casestudysection p, .casestudysection ul {
-  padding-top: 20px; }
-
-.casestudysection span {
-  font-weight: 700; }
-
-.casestudysection ul {
-  display: block;
-  margin-left: 30px; }
-
-.casestudysection img {
-  height: 60%;
-  width: 60%;
-  display: block;
-  margin: 20px auto 0; }
+  .casestudysection h1, .casestudysection h2 {
+    padding-top: 40px; }
+  .casestudysection p, .casestudysection ul {
+    padding-top: 20px; }
+  .casestudysection span {
+    font-weight: 700; }
+  .casestudysection ul {
+    display: block;
+    margin-left: 30px; }
+  .casestudysection img {
+    height: 60%;
+    width: 60%;
+    display: block;
+    margin: 20px auto 0; }
 
 .rolesectioncontainer {
   float: left;
@@ -573,24 +548,21 @@ img {
   height: 320px;
   margin-bottom: 10px;
   text-align: center; }
-
-.rolesectioncontainer ul {
-  margin-left: 0px; }
+  .rolesectioncontainer ul {
+    margin-left: 0px; }
 
 .pulsebandCSsection {
   width: 100%;
   height: 100%;
   padding-top: 20px;
   background-color: #3083FC; }
-
-.pulsebandCSsection h1 {
-  font-size: 3em;
-  text-align: center;
-  padding-top: 40px; }
-
-.pulsebandCSsection img {
-  display: block;
-  margin: 0 auto; }
+  .pulsebandCSsection h1 {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 40px; }
+  .pulsebandCSsection img {
+    display: block;
+    margin: 0 auto; }
 
 #pulsebandTitle {
   font-family: "Open Sans", sans-serif;
@@ -660,11 +632,10 @@ img {
   height: 100%;
   padding-top: 20px;
   background-color: #DB4E66; }
-
-.nutritionSearchCSsection h1 {
-  font-size: 3em;
-  text-align: center;
-  padding-top: 40px; }
+  .nutritionSearchCSsection h1 {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 40px; }
 
 .dev_rolesectioncontainer {
   float: left;
@@ -672,9 +643,8 @@ img {
   height: 230px;
   margin-bottom: 10px;
   text-align: center; }
-
-.dev_rolesectioncontainer ul {
-  margin-left: 0px; }
+  .dev_rolesectioncontainer ul {
+    margin-left: 0px; }
 
 #nutritionSearchTitle {
   font-family: "Open Sans", sans-serif;
@@ -718,11 +688,10 @@ img {
   height: 100%;
   padding-top: 20px;
   background-color: #F39C12; }
-
-.playlistGeneratorCSsection h1 {
-  font-size: 3em;
-  text-align: center;
-  padding-top: 40px; }
+  .playlistGeneratorCSsection h1 {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 40px; }
 
 #playlistGeneratorTitle {
   font-family: "Open Sans", sans-serif;
@@ -883,8 +852,8 @@ img {
   #strategyimage {
     float: none;
     width: 100%; }
-  #strategyimage img {
-    padding-left: 0px; }
+    #strategyimage img {
+      padding-left: 0px; }
   .uxdesign {
     float: none;
     width: 100%; }

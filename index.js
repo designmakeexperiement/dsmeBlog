@@ -8,7 +8,3 @@ import App from './src/components/App';
 ReactDOM.render(
   <App />
   , document.getElementById('app'));
-
-ReactDOM.render(
-  <FullBlog />
-  , document.getElementById("FullBlog"))
