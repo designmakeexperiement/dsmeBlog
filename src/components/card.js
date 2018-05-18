@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {title, subtitle, description} from "../blogs/testPost";
+// import {title, subtitle, description} from "../blogs/testPost";
 
 
 export default class Card extends Component {
