@@ -1,14 +1,16 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 // main app
-import App from './src/components/App';
+import {Main, FullBlog} from './src/components/App';
 
 ReactDOM.render(
-  <App />
+  <Router>
+    <div>
+      <Route exact path="/" component={Main} />
+      <Route path="/blogPages" component={FullBlog} />
+    </div>
+  </Router>
   , document.getElementById('app'));
-
-ReactDOM.render(
-  <FullBlog />
-  , document.getElementById("FullBlog"))

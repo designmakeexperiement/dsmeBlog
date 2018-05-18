@@ -1,22 +1,21 @@
-import React, {Component} from 'react';
-// import {title, subtitle, description} from "../blogs/testPost";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 
 export default class Card extends Component {
   render() {
     const post = this.props.post;
 
-    function openBlog() {
-      window.location = post.url;
-    }
-
     return (
-      <div className="card" onClick={openBlog}>
+        
+      <div className="card" >
+      <Link to={post.url}>
         <div className="card-body">
           <h1>{post.title}</h1>
           <h3>{post.subtitle}</h3>
           <p>{post.description}</p>
         </div>
+      </Link>
       </div>  
     );
   }

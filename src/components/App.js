@@ -4,7 +4,7 @@ import BlogList from "./blogList";
 import Header from "./header";
 
 
-export default class App extends Component {
+class Main extends Component {
   render () {
       return (
         <div>
@@ -15,3 +15,16 @@ export default class App extends Component {
       );
   }
 }
+
+class FullBlog extends Component {
+  render () {
+      return (
+        <div>
+          <Header></Header>
+          <Footer></Footer>
+        </div>
+      );
+  }
+}
+
+export { Main, FullBlog }
